@@ -85,6 +85,7 @@ iframe{
 p{
   text-align: center;
   text-decoration-color: black;
+  font-size: 110%;
 }
 
 .dropbtn {
@@ -125,3 +126,20 @@ p{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.learnimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ad {
+  float: right;
+  clear: none;
+  padding:10px;
+}
+
