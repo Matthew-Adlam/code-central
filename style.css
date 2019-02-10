@@ -151,3 +151,27 @@ h5 {
   text-align: center;
   color:black;
 }
+footer {
+  background-color:green;
+  padding-top: 20px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:0px;
+  text-decoration-color: white;
+  display: block;
+}
+.footer-text {
+  text-decoration-color: white;
+  color:white;
+}
+.footer-tc {
+  color:black;
+}
+.centertheh3 {
+  text-align:center;
+  align-content: center;
+}
+.ultcp {
+  align-content: center;
+  padding-left:400px;
+}
