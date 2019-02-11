@@ -142,9 +142,6 @@ img {
   clear: none;
   padding:10px;
 }
-ul {
-  list-style-type: circle;
-}
 h5 {
   text-decoration-color: black;
   font-family: sans-serif;
@@ -174,4 +171,8 @@ footer {
 .ultcp {
   align-content: center;
   padding-left:400px;
+}
+.centerdalink {
+  padding-left:700px;
+  color:blue;
 }
