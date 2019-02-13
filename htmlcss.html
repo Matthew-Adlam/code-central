@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1>Fun Central</h1>
+        <h1>Code Central</h1>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -46,17 +46,13 @@
     <h3>Setting up your HTML/CSS file (Made by me)</h3>
     <ol>
         <li>Open your text editor, could be almost any editor. </li>
+        <li>We will be using HTML for the first part of this tutorial. HTML stands for Hyper Text Markup Language, and it allows us to add text, headers, and more!</li>
         <li>Create a new file and name it index.html</li>
         <li>Start with typing the !doctypeHTML tag. All tags start with &lt; and end with &gt; and the closing tag (if
             needed) has a / after the opening &lt;. </li>
         <li>Next you need the html tag and closing html tag. Make space between them with enter.</li>
-        <li>Do the same with head and body, but don't put them inside one another.</li>
-        <li>Set up a stylesheet(called style.css or layout.css) and link stylesheet to index.html using this code in
-            the html:
-            <br>
-            <code>&lt;link rel="stylesheet" href="style.css" type="text/css" charset="utf-8"&gt;</code>
-        </li>
-        <li>Now, a header. The h1 tag is for an important header, h2 for a less important header, all the way down to h6, a very unimportant header.</li>
+        <li>Do the same with head and body, but don't put them inside one another. Put head above body.</li>
+        <li>Now, a header. The h1 tag is for an important header, h2 for a less important header, all the way down to h6, a very unimportant header. Structure it like this: <code>&lt;h4&gt;A Random Header &lt;/h4&gt;</code></li>
         <li>The p tag states a paragraph. Use it for your content, not a header tag. </li>
         <li>Then in the head element, make a title element:
             <br>
@@ -67,15 +63,21 @@
             <a href="learnexample.html">
                 <img src="images/example.png" width="518" height="245" class="tutorialimg1"border="0" alt="Code required to start">               
                 </div>
-        <li>Styling your website is one of the most important things. It makes it look nice.</li>     
+            </a>
+        <li>Styling your website is one of the most important things. It makes it look nice.</li> 
+        <li>First we will set up a stylesheet, which contains CSS. CSS stands for Cascading Style Sheets and allows us to add style to our website. The HTML is the bones, but this is the skin of web design.</li>
+        <li>Set up a stylesheet(called style.css or layout.css) and link stylesheet to index.html using this code between the head tags:
+            <br>
+            <code>&lt;link rel="stylesheet" href="style.css" type="text/css" charset="utf-8"&gt;</code>
+        </li>    
         <li>We will start with the basics, centering your text. Open up your style.css file. All css starts with the reference and some brackets. See example below:</li>   
         <br>
         <code>h3 {
             align:center;
         }
         </code>
-        <li>This says to the computer to center the text.</li>
-            </a>
+        <li>This says to the computer to center all headers with the h3 tag.</li>
+            
         
     </ol>
     <footer>
